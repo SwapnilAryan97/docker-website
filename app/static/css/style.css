@@ -17,3 +17,10 @@ body {
 .yellow{
     color:yellow;
 }
+
+.font_fantasy{
+    font-family: fantasy;
+}
+.font_weight_600{
+    font-weight: 600;
+}
