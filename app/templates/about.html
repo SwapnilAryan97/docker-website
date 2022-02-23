@@ -18,20 +18,34 @@
 
 </head>
 <body>
-<h1>in about</h1>
+
 <div class="container">
     <nav class="navbar navbar-light bg-light">
         <form class="container-fluid justify-content-start">
-            <button class="btn btn-outline-success me-2" href="/" type="button">Home</button>
-            <button class="btn btn-sm btn-outline-secondary active" href="/about" type="button">About</button>
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="/about">About</a>
+                </li>
+            </ul>
         </form>
     </nav>
 
+     <br>
+    <h1>
+        <center>About</center>
+    </h1>
+    <hr>
+    <br>
 
-    <p> <br>
-    <span class='white font_weight_600 font_fantasy font_size_x-large'>
+    <p><br>
+        <span class='white font_weight_600 font_fantasy font_size_x-large'>
         Lorem </span> <span class='blue'> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. </span> Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Pulvinar mattis nunc sed blandit
+        aliqua. </span> Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Pulvinar mattis nunc sed
+        blandit
         libero
         volutpat. Est ante in nibh mauris cursus mattis molestie a. Dolor sit amet consectetur adipiscing. Sed lectus
         vestibulum
@@ -61,7 +75,7 @@
         <br>
 
 
-        <img src='{{ url_for('static', filename='images/sample2.jpeg') }}' width="500" height="300">
+        <img src='{{ url_for('static', filename='images/img_3.png') }}' width="500" height="300">
     </p>
 
     <p>
