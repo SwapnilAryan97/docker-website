@@ -13,6 +13,7 @@ app.wsgi_app = DebuggedApplication(app.wsgi_app, True)
 def index_get():
     return IndexController.get()
 
+
 @app.route("/about", methods=['GET'])
 def about_get():
     return AboutController.get()
